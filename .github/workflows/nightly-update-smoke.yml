@@ -8,7 +8,7 @@ on:
 jobs:
   startup-update-chain:
     name: Startup Update Chain
-    runs-on: ubuntu-24.04
+    runs-on: [self-hosted, linux, x64, anvil-ci-linux]
     permissions:
       contents: read
     steps:
